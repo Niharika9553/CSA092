@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int length,breadth,area;
+    printf("enter the length=");
+    scanf("%d",&length);
+    printf("enter the breadth=");
+    scanf("%d",&breadth);
+    area=length*breadth;
+    printf("area of rectangle=%d",area);
+    return 0;
+}
+output;
+enter the length=12
+enter the breadth=24
+area of rectangle=288
+
+=== Code Execution Successful ===
