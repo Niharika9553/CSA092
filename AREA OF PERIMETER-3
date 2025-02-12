@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int length,breadth,perimeter;
+  printf("length of rectangle=");
+  scanf("%d",&length);
+  printf("breadth of rectangle=");
+  scanf("%d",&breadth);
+  perimeter=2*(length+breadth);
+  printf("perimeter of rectangle=%d",perimeter);
+  return 0;
+}
+output;
+length of rectangle=77
+breadth of rectangle=88
+perimeter of rectangle=330
+
+=== Code Execution Successful === 
