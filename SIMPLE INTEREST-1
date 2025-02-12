@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int p,t,r,SI;
+    printf("enter the principal amount=");
+    scanf("%d",&p);
+    printf("enter the time in years=");
+    scanf("%d",&t);
+    printf("enter the rate=");
+    scanf("%d",&r);
+    SI=(p *r* t)/ 100;
+    printf("simple intrest=%d",SI);
+    return 0;
+}
+output;
+enter the principal amount=2000
+enter the time in years=4
+enter the rate=5
+simple intrest=400
+
+=== Code Execution Successful ===
