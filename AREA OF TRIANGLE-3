@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int height,base,area;
+  printf("height of triangle=");
+  scanf("%d",&height);
+  printf("base of triangle=");
+  scanf("%d",&base);
+  area =(base*height)/2;
+  printf("area of triangle=%d",area);
+  return 0;
+}
+output;
+height of triangle=12
+base of triangle=12
+area of triangle=72
+
+=== Code Execution Successful ===
