@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int celsius,fahrenheit;
+    printf("enter the tempertature in fahrenheit=");
+    scanf("%d",&fahrenheit);
+    celsius=(fahrenheit*5/9)+32;
+    printf("temperature in celsius=%d",celsius);
+    return 0;
+}
+OUTPUT;
+enter the tempertature in fahrenheit=30
+temperature in celsius=48
+
+=== Code Execution Successful ===
