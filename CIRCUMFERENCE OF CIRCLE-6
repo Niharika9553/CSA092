@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int radius,area,cf;
+    printf("enter the radius of the circle=");
+    scanf("%d",&radius);
+    cf=2*3.14*radius;
+    printf("circumference of circle is %d",cf);
+    return 0;
+}
+  OUTPUT;
+enter the radius of the circle=25
+circumference of circle is 157
+
+=== Code Execution Successful ===
