@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+int a=1500,b=25,c=200;
+if(a>b&&a>c)
+printf(" the greatest among three numbers is a=%d ",a);
+else if(b>c)
+printf(" the greatest among three numbers is b=%d ",b);
+else
+printf(" the greatest among three numbers is c=%d ",c);
+return 0;
+}
+output;
+the greatest among three numbers is a=1500
+
+=== Code Execution Successful ===
