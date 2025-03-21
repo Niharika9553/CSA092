@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int age=14;
+    int num=18-age;
+    if(age>=18)
+    {
+        printf("Eligible for vote",num);
+    }
+    else{
+        printf("Not eligible for vote\n U will be eligible for vote after %d years",num);
+    }
+    return 0;
+}
